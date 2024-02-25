@@ -52,3 +52,29 @@ Global Styles
 body {
   background: var(--clr-pink);
 }
+/* global classes */
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 90vw;
+  margin: 5rem 0;
+  max-width: var(--fixed-width);
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  padding: 1.5rem 2rem;
+  box-shadow: var(--dark-shadow);
+}
+.container h3 {
+  font-weight: normal;
+  text-transform: none;
+  margin-bottom: 2rem;
+}
