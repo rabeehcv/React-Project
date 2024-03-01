@@ -1,2 +1,3 @@
 # React-Projects
-In this repository, I will be sharing small projects by using React.
+
+In this repo, I will be sharing small projects by using React.
