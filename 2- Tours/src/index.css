@@ -42,7 +42,10 @@
 h2 {
   font-size: 2.5rem;
 }
-
+h4 {
+  font-size: 1rem;
+  line-height: 1;
+}
 .Loading {
   text-align: center;
 }
@@ -67,4 +70,30 @@ main {
   background: var(--clr-primary-5);
   margin-left: auto;
   margin-right: auto;
+}
+.single-tour {
+  background: var(--clr-white);
+  border-radius: var(--radius);
+  margin: 2rem 0;
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+}
+.single-tour:hover {
+  box-shadow: var(--dark-shadow);
+}
+.single-tour img {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  border-top-right-radius: var(--radius);
+  border-top-left-radius: var(--radius);
+}
+.tour-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.tour-info h4 {
+  margin-bottom: 0;
 }
