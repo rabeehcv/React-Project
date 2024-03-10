@@ -62,16 +62,15 @@ h4 {
 }
 .btn {
   background: var(--clr-primary-5);
-  display: inline-block;
+  display: block;
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
-  text-transform: capitalize;
   color: var(--clr-white);
   letter-spacing: var(--spacing);
   border-color: transparent;
   cursor: pointer;
-  margin-top: 2rem;
-  font-size: 1.2rem;
+  width: 200px;
+  margin: 1rem auto 0 auto;
 }
 .Loading {
   text-align: center;
