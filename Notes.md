@@ -63,7 +63,7 @@ useEffect(() => {
 
 2. setLoading(true);: This line invokes a function named setLoading with the argument true. Presumably, setLoading is a state updater function that updates a state variable responsible for indicating whether data is being loaded.
 
-3. const response = await fetch(url);: This line makes an asynchronous HTTP request to the url provided and assigns the response to the variable response.
+3. const response = await fetch(url);: This line makes an asynchronous HTTP request to the url provided and assigns the response to the variable response. The await keyword pauses the execution of the function until the fetch operation is complete and the response is received.
 
 4. const tours = await response.json();: This line extracts the JSON content from the response and assigns it to the variable tours.
 
