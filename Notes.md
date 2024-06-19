@@ -122,6 +122,64 @@ When the server receives an HTTP request, it processes the request and sends bac
 
 JSON (JavaScript Object Notation) is a lightweight, text-based format that is easy for humans to read and write and easy for machines to parse and generate. It is commonly used to represent structured data, like objects and arrays. JSON is natively supported in JavaScript, making it straightforward to convert JSON data into JavaScript objects and arrays. This allows us to easily manipulate and use the data in our application. Reading and parsing the response body as JSON is necessary to convert the raw response into a usable JavaScript object, enabling to work with the structured data returned by the server.
 
+## Usage of Props
+
+Props are used to pass data from the parent component (App) to the child component
+
+### Parent Component: App
+  1. State Initialization:
+```
+const [jobs, setJobs] = useState(items);
+```
+jobs: This state holds an array of job objects, initialized with items imported from a data file.
+
+  2. Rendering Jobs:
+```
+{jobs.map((job) => {
+  return <SingleJob key={job.id} {...job} />;
+})}
+```
+jobs.map iterates over the jobs array.
+For each job object, it creates a SingleJob component.
+The key attribute is used by React to keep track of elements, especially when they change dynamically.
+{...job} is the spread operator, which spreads the properties of the job object as individual props to the SingleJob component.
+
+### Child Component: SingleJob (named job in the import/export statements)
+1. Receiving Props:
+```
+const job = ({ title, dates, company }) => {
+```
+The SingleJob component (named job here) receives props. Using destructuring, it directly extracts title, dates, and company from the props object.
+2. Rendering Job Details:
+```
+return (
+    <article>
+        <h4>{title}</h4>
+        <h4>{dates}</h4>
+        <h4>{company}</h4>
+    </article>
+);
+```
+The SingleJob component uses the received props to render the job details inside an article element.
+It creates three h4 elements to display the title, dates, and company of the job.
+
+### How Props Work
+1. Data Passing:
+In the App component, jobs is an array of job objects. Each job object has properties like id, title, dates, and company.
+When creating a SingleJob component, {...job} spreads the job object properties as individual props. For example, if a job object is { id: 1, title: 'Developer', dates: '2021', company: 'XYZ Corp' }, it gets passed to SingleJob as:
+```
+<SingleJob id={1} title="Developer" dates="2021" company="XYZ Corp" />
+```
+2. Props Destructuring:
+Inside SingleJob, the props object is destructured in the function parameter:
+```
+const job = ({ title, dates, company }) => {
+```
+This allows direct access to title, dates, and company without needing to reference props.title, props.dates, and props.company.
+
+3. Rendering with Props:
+The SingleJob component uses these destructured props to render the job details within its JSX.
+
 
 
 
