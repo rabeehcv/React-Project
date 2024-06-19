@@ -117,3 +117,14 @@ Headers: Headers provide additional information about the request or the client 
 Body: Some requests, like POST and PUT, may include a body which contains data to be sent to the server. For example, when submitting a form, the form data is usually included in the body of a POST request.
 
 When the server receives an HTTP request, it processes the request and sends back an HTTP response, which typically includes a status code indicating whether the request was successful or encountered an error, along with any data or content requested by the client.
+
+### JSON
+
+JSON (JavaScript Object Notation) is a lightweight, text-based format that is easy for humans to read and write and easy for machines to parse and generate. It is commonly used to represent structured data, like objects and arrays. JSON is natively supported in JavaScript, making it straightforward to convert JSON data into JavaScript objects and arrays. This allows us to easily manipulate and use the data in our application. Reading and parsing the response body as JSON is necessary to convert the raw response into a usable JavaScript object, enabling to work with the structured data returned by the server.
+
+
+
+
+
+
+
