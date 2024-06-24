@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://rabeehcv.github.io/React-Project/1-%20Birthday-Reminder",
+  "homepage": "https://rabeehcv.github.io/React-Projects/1-Birthday-Reminder", 
   "scripts": {
     "dev": "vite",
     "build": "vite build",
