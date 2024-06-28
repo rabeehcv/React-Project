@@ -18,25 +18,35 @@ Angular: A full-featured framework developed by Google for building complex and 
 #### MERN and MEAN
 ##### MERN Stack
 MongoDB: A NoSQL database that stores data in a flexible, JSON-like format. It allows for easy scalability and querying.
+
 Express.js: A minimal and flexible Node.js web application framework that provides robust features for building web and mobile applications. It simplifies server-side code and manages HTTP requests and responses.
+
 React: A front-end JavaScript library for building user interfaces, particularly single-page applications. React allows developers to create reusable UI components and manage the state of these components efficiently.
+
 Node.js: A JavaScript runtime environment that executes JavaScript code on the server side. It uses an event-driven, non-blocking I/O model, making it ideal for building scalable and high-performance web applications.
 ##### MEAN Stack
 MongoDB: Same as in the MERN stack, it serves as the NoSQL database to store application data.
+
 Express.js: Also shared with the MERN stack, it acts as the back-end framework for handling HTTP requests and building APIs.
+
 Angular: A comprehensive front-end framework developed by Google for building dynamic single-page applications. Angular provides a rich set of features, including two-way data binding, dependency injection, and a powerful templating system.
+
 Node.js: As in the MERN stack, it provides the runtime environment for executing server-side JavaScript code.
 ##### Key Differences
 Front-End Framework: The primary difference between the two stacks is the front-end framework. MERN uses React, which is a library focused on building user interfaces with a component-based architecture. MEAN uses Angular, which is a full-fledged framework offering a comprehensive solution for building complex applications with features like two-way data binding and dependency injection.
 ##### Use Cases:
 MERN: Preferred for projects where a flexible and lightweight UI library is desired. React's virtual DOM and component-based architecture make it suitable for dynamic and interactive UIs.
+
 MEAN: Preferred for projects where a full-featured framework with a rich set of built-in features is beneficial. Angular's comprehensive tooling and structure are ideal for large-scale applications.
 ##### Commonalities
 JavaScript Everywhere: Both stacks use JavaScript throughout the entire application, from the database to the back end to the front end, allowing for a seamless development experience.
+
 Scalability and Performance: Both stacks leverage the non-blocking, event-driven nature of Node.js, which contributes to building scalable and high-performance web applications.
+
 Open-Source: All technologies in both stacks are open-source, ensuring a large community, continuous improvements, and extensive resources for learning and troubleshooting.
 ###### Summary
 MERN: MongoDB, Express.js, React, Node.js
+
 MEAN: MongoDB, Express.js, Angular, Node.js
 
 ## Difference between `<main>` and `<section>`
