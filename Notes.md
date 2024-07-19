@@ -1,6 +1,9 @@
 ## React JS
 React JS is a popular JavaScript library developed by Facebook for building user interfaces, particularly single-page applications. It allows developers to create reusable UI components, manage the state of these components, and efficiently update and render the right components when the data changes. React uses a virtual DOM to improve performance and provides a declarative way to build UI. 
-The Virtual DOM (VDOM) is a concept used in libraries like React to improve performance when updating the user interface. It acts as a lightweight copy of the actual DOM (Document Object Model), allowing changes to be applied more efficiently.
+The Virtual DOM (VDOM) is a concept used in libraries like React to improve performance when updating the user interface. It acts as a lightweight copy of the actual DOM (Document Object Model), allowing changes to be applied more efficiently. The DOM (Document Object Model) is a representation of a web page as a
+structured tree of nodes. Using DOM,we can dynamically create,modify and remove elements in the
+page.
+
 
 ## npm
 npm (Node Package Manager) is a package manager for JavaScript. It is the default package manager for Node.js and helps developers to manage project dependencies. With npm, you can install, share, and manage code libraries (packages) and tools. It also allows you to run scripts, manage versions, and handle project configuration.
