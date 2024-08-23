@@ -52,7 +52,26 @@ MERN: MongoDB, Express.js, React, Node.js
 
 MEAN: MongoDB, Express.js, Angular, Node.js
 
-## Difference between `<main>` and `<section>`
+### index.html and index.js (Or main.jsx)
+In a React app, index.js and index.html play crucial roles in rendering the application to the browser.
+- index.html : This file is the entry point for the React app in the browser. It's a simple HTML file that contains a <div> element with an id (usually root or app). When the React app runs, this file is served to the browser. The div with the id="root" is where the entire React app will be injected and displayed.
+- index.js : for initializing and setting up the React application by loading the root component (usually App.js) and rendering it into the designated area of the HTML file (index.html) which is the div with the id specified in index.html.
+```
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+)
+```
+- ReactDOM.createRoot(document.getElementById('root')): This creates a root for the React app at the div element with the id="root" in index.html. This is where the React components will be rendered.
+- .render(: The render method is used to display the React component tree inside the root element. It takes JSX as an argument.
+- <React.StrictMode>: This is a wrapper component that activates additional checks and warnings in development mode. It doesn't affect the production build.
+- <App />: The App component is rendered as the root component of the React app.
+- , (comma): This is the closing of the render method, completing the command to render the app.
+
+### Note: 
+A <div> (short for "division") is an HTML element used as a container to group and structure content on a webpage. 
+### Difference between `<main>` and `<section>`
 
 1. `<main>` Element:
 
