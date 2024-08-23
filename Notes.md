@@ -70,7 +70,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 - , (comma): This is the closing of the render method, completing the command to render the app.
 
 ### Note: 
-A <div> (short for "division") is an HTML element used as a container to group and structure content on a webpage. 
+A < div > (short for "division") is an HTML element used as a container to group and structure content on a webpage. 
 ### Difference between `<main>` and `<section>`
 
 1. `<main>` Element:
