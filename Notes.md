@@ -113,6 +113,9 @@ It's a generic container for holding thematic grouping of content, and it doesn'
 `<section>` is often used to divide the content of a page into sections, such as chapters, headers, footers, or any other thematic grouping.
 Unlike `<main>`, `<section>` can be nested within other `<section>` elements, and it's used to create hierarchical structures within the document.
 
+### JavaScript Keywords
+The 'export' JavaScript keyword makes this function accessible outside of this file. The 'default' keyword tells other files using your code that it’s the main function in your file.
+
 ## UseEffect
 
 useEffect() is a hook in React that allows you to perform side effects in function components. Side effects can include data fetching, subscriptions, or manually changing the DOM in React components.
