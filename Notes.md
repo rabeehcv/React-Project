@@ -114,9 +114,15 @@ It's a generic container for holding thematic grouping of content, and it doesn'
 Unlike `<main>`, `<section>` can be nested within other `<section>` elements, and it's used to create hierarchical structures within the document.
 
 ### JavaScript Keywords
-The 'export' JavaScript keyword makes this function accessible outside of this file. The 'default' keyword tells other files using your code that it’s the main function in your file.
+- The 'export' JavaScript keyword makes this function accessible outside of this file.
+- The 'default' keyword tells other files using your code that it’s the main function in your file.
 
-## UseEffect
+### JSX Element
+A JSX element is a combination of JavaScript code and HTML tags that describes what you’d like to display. Eg: <button>
+#### Note
+React components need to return a single JSX element and not multiple adjacent JSX elements like two buttons. To fix this you can use Fragments (<> and </>) to wrap multiple adjacent JSX elements
+
+### UseEffect
 
 useEffect() is a hook in React that allows you to perform side effects in function components. Side effects can include data fetching, subscriptions, or manually changing the DOM in React components.
 
