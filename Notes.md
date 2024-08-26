@@ -122,6 +122,10 @@ A JSX element is a combination of JavaScript code and HTML tags that describes w
 #### Note
 React components need to return a single JSX element and not multiple adjacent JSX elements like two buttons. To fix this you can use Fragments (<> and </>) to wrap multiple adjacent JSX elements
 
+### JS Comparison operators 
+- == (Equality Operator): It performs type conversion before making the comparison. This means that if the two values being compared are of different types, JavaScript will attempt to convert one or both of the values to a common type before making the comparison.
+- === (Strict Equality Operator): It does not perform type conversion. Both the value and the type must be the same for the comparison to return true.
+  
 ### UseEffect
 
 useEffect() is a hook in React that allows you to perform side effects in function components. Side effects can include data fetching, subscriptions, or manually changing the DOM in React components.
