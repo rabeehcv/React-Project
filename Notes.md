@@ -1,17 +1,17 @@
-## React JS
+### React JS
 React JS is a popular JavaScript library developed by Facebook for building user interfaces, particularly single-page applications. It allows developers to create reusable UI components, manage the state of these components, and efficiently update and render the right components when the data changes. React uses a virtual DOM to improve performance and provides a declarative way to build UI. 
 The Virtual DOM (VDOM) is a concept used in libraries like React to improve performance when updating the user interface. It acts as a lightweight copy of the actual DOM (Document Object Model), allowing changes to be applied more efficiently. The DOM (Document Object Model) is a representation of a web page as a
 structured tree of nodes. Using DOM,we can dynamically create,modify and remove elements in the
 page.
 
 
-## npm
+### npm
 npm (Node Package Manager) is a package manager for JavaScript. It is the default package manager for Node.js and helps developers to manage project dependencies. With npm, you can install, share, and manage code libraries (packages) and tools. It also allows you to run scripts, manage versions, and handle project configuration.
 
-## Node.js
+### Node.js
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to run JavaScript on the server side, enabling the creation of scalable and high-performance network applications. Node.js uses an event-driven, non-blocking I/O model, making it lightweight and efficient for data-intensive real-time applications. With Node.js, developers can use JavaScript for both frontend and backend development, enabling full-stack development using a single language.
 
-## Vite
+### Vite
 Vite is a modern build tool and development server for JavaScript applications. It aims to provide a faster and leaner development experience by leveraging native ES modules and modern browser capabilities.
 
 ### Alternatives to React:
@@ -266,7 +266,8 @@ This allows direct access to title, dates, and company without needing to refere
 3. Rendering with Props:
 The SingleJob component uses these destructured props to render the job details within its JSX.
 
-
+### Axios or Fetch
+Tools used to sends HTTP requests to the API endpoints.
 
 
 
