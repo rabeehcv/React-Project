@@ -269,7 +269,8 @@ The SingleJob component uses these destructured props to render the job details 
 ### Axios or Fetch
 Tools used to sends HTTP requests to the API endpoints.
 
-
+### CORS (Cross-Origin Resource Sharing)
+Without CORS, the browser will block requests from the frontend. CORS controls how a web page can request resources from a different domain (or origin), and this configuration ensures that API can be accessed by the frontend on a different domain. 
 
 
 
